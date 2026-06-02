@@ -1,0 +1,21 @@
+# API Keys — NEVER commit
+.env
+
+# Data and outputs — too large for GitHub
+data/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
