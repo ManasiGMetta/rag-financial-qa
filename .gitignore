@@ -15,4 +15,9 @@ __pycache__/
 # Local Vector Database data / Cache (if using ChromaDB, FAISS, etc. locally)
 .chroma/
 faiss_index/
+<<<<<<< HEAD
 data/.env
+=======
+data/
+>>>>>>> b7a2e6c6e5889aec993378a1e39ee6a023228806
+.env
