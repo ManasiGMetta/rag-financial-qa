@@ -1,0 +1,18 @@
+# Sensitive Environment Variables (Your LLM API keys)
+.env
+.env.local
+*.env
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Local Vector Database data / Cache (if using ChromaDB, FAISS, etc. locally)
+.chroma/
+faiss_index/
+data/.env
